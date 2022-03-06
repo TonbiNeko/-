@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>実践文字数カウンターの開発１</title>
 </head>
+<style>
+    .red {
+        color: red;
+    }
+    .black {
+        color: black;
+    }
+</style>
 <body>
     <h1>文字数カウンター</h1>
-    <input type="text" name="inputField" size="100">
-    <p id="counter"></p>
+    <input type="text" name="inputField" size="100" id="inputField">
+    <p id="counterText">残り<span id="counter">10</span>文字</p>
+    <script src="main.js"></script>
     </script>
 </body>
 </html>
